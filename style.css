@@ -1,0 +1,50 @@
+* {box-sizing: border-box;
+  font-family: 'Marvel', sans-serif;
+}
+
+.orderbar-wrapper {
+  background-color: #fa6938;
+  font-size: 15px;
+  color: white;
+  list-style: none;
+  margin-top: 0;
+  margin-right: 170px;
+  padding: 7px;
+}
+.orderbar-wrapper li { display: inline; }
+.freeshipping {
+  background-color: #c7522b;
+  margin-left: 80px;
+  margin-right: 0px;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.shipping {
+  margin-left: 20px;
+  font-size: 13px;
+}
+.top-bar {
+  background-color: grey;
+
+}
+.menu {
+  list-style: none;
+  font-size: 20px;
+}
+.menu li { display: inline; }
+.top-bar > menu > img {
+  width: 50px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.menu-item {
+  margin-left: 18px;
+  font-size: 27px;
+}
+.sample-box {
+  background-color: #F9F8F6;
+}
+.products {
+  background-color: #F9F8F6;
+}
