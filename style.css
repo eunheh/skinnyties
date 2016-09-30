@@ -8,7 +8,7 @@
   color: white;
   list-style: none;
   margin-top: 0;
-  margin-right: 170px;
+  margin-right: 180px;
   padding: 7px;
   margin-bottom: 0px;
 }
@@ -26,14 +26,15 @@
   font-size: 14px;
 }
 .top-bar {
-  background-color: grey;
-  height: 95px;
-  margin-top: 0px;
+  border-color: #BEBEBE;
+  height: 102px;
+  padding-top: 1px;
 }
 
 .menu {
   list-style: none;
   font-size: 20px;
+  margin-top: 0px;
 }
 .menu li {
   display: inline;
@@ -42,33 +43,50 @@
 }
 .top-bar > .menu > li > img {
   width: 110px;
-  margin-left: 47px;
-  margin-right: 60px;
+  margin-left: 54px;
+  margin-right: 61px;
+  overflow: auto;
 }
 .menu-item {
-  margin-left: -23px;
+  margin-left: -22px;
   font-size: 25px;
-  padding: 24px;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-top: 34px;
 }
-
+.menu-topright {
+  float: right;
+  font-size: 10px;
+  color: #B2B2B2;
+  font-weight: bold;
+  margin-right: 274px;
+  margin-top: -5px;
+}
+.sign-in {padding: 5px;}
+.register {padding:5px;}
 .sample-box {
   background-color: #F9F8F6;
-  margin-right: 170px;
+  margin-right: 180px;
+  position: relative;
 }
 .sample-ties {
   list-style: none;
-  padding-left: 140px;
+  margin-top: 0px;
+  margin-right: 180px;
 }
 .sample-ties li {display: inline;}
 .sample-ties li img {
-  width: 61px;
+  width: 63px;
   text-align: center;
   margin-left: 11px;
   margin-right: 15px;
+
+}
+.sample-ties li img:after {
+  content: attr();
 }
 .motto {
-  background-color: #F9F8F6;
-  margin-right: 170px;
+  margin-right: 180px;
   font-size: 58px;
   padding: 54px;
   padding-left: 330px;
@@ -81,7 +99,7 @@
 .products li {display:inline;}
 .products li img {
   width: 285px;
-  border-color: #DADADA;
+  border-color: #BEBEBE;
   margin-top: 20px;
   margin-left:5px;
   margin-right: 10px;
@@ -92,7 +110,7 @@
   font-style: italic;
   text-align: center;
   padding: 10px;
-  margin-right: 170px;
+  margin-right: 180px;
 }
 .history-view {
   color: #65B8FF;
