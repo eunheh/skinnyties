@@ -10,6 +10,7 @@
   margin-top: 0;
   margin-right: 170px;
   padding: 7px;
+  margin-bottom: 0px;
 }
 .orderbar-wrapper li { display: inline; }
 .freeshipping {
@@ -18,29 +19,35 @@
   margin-right: 0px;
   padding: 4px;
   border-radius: 5px;
-  font-size: 11px;
+  font-size: 12px;
 }
 .shipping {
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 14px;
 }
 .top-bar {
   background-color: grey;
-
+  height: 95px;
+  margin-top: 0px;
 }
 .menu {
   list-style: none;
   font-size: 20px;
 }
-.menu li { display: inline; }
-.top-bar > menu > img {
-  width: 50px;
-  margin-left: 80px;
-  margin-bottom: 20px;
+.menu li {
+  display: inline;
+  float: left;
+  margin-top: 0px;
+}
+.top-bar > .menu > li > img {
+  width: 110px;
+  margin-left: 47px;
+  margin-right: 60px;
 }
 .menu-item {
-  margin-left: 18px;
-  font-size: 27px;
+  margin-left: -23px;
+  font-size: 25px;
+  padding: 24px;
 }
 .sample-box {
   background-color: #F9F8F6;
