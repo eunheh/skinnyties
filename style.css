@@ -64,15 +64,20 @@
 }
 .sign-in {padding: 5px;}
 .register {padding:5px;}
+
 .sample-box {
   background-color: #F9F8F6;
   margin-right: 180px;
-  position: relative;
+
 }
+/*.sample-box:before {
+  content="";
+  background: url(./hard-mode/assets/black@1.5x.jpg);
+  repeat: x;
+}*/
 .sample-ties {
   list-style: none;
   margin-top: 0px;
-  margin-right: 180px;
 }
 .sample-ties li {display: inline;}
 .sample-ties li img {
@@ -105,11 +110,14 @@
   margin-right: 10px;
 }
 
+.history {
+  padding-top: 42px;
+}
+
 .history-description {
   font-size: 37px;
   font-style: italic;
   text-align: center;
-  padding: 10px;
   margin-right: 180px;
 }
 .history-view {
@@ -118,4 +126,40 @@
   font-style: normal;
   font-weight:bold;
   padding: 10px;
+  text-align: center;
+  margin-right: 180px;
+}
+.bottom-bar {
+  background: grey;
+  margin-top: 70px;
+  margin-right: 100px;
+  margin-left: 85px;
+}
+.bar-items {
+  float: left;
+  margin: 10px;
+  width: 20%;
+}
+.bar-items h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.bar-items img {
+  width: 200px;
+}
+.bar-items p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.bar-items p a {
+  text-decoration: none;
+  color: #65B8FF;
+}
+
+.index-bar {
+  margin-top: 20px;
+}
+.index-menu {
+  font-size: 14px;
+  float: left;
 }
