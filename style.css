@@ -65,7 +65,12 @@
 .sign-in {padding: 5px;}
 .register {padding:5px;}
 
-
+.cartsearch {
+  float: right;
+}
+form[action="cart-bar"] {
+  color: #6A6A6A;
+}
 
 .sample-box {
   background-color: #F9F8F6;
