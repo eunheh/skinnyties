@@ -29,10 +29,15 @@
     <span class="sign-in">SIGN IN</span>
     <span class="register">REGISTER</span>
   </div>
-  <div class="cart"></div>
-  <div class="search-box">
-    <form id="search-form" name="search" action="/products" method="get">
-      <input id="search-input" name="search" type="text">
+  <div class="cart search-box">
+    <form action="cart">
+      <input type="text" name="cart"
+             placeholder="cart">
+           </form>
+    <form action="search">
+      <input type="text" name="search"
+             placeholder="search">
+           </form>
     </form>
   </div>
 </nav>
@@ -70,10 +75,22 @@
   <div class="bar-items">
     <h1>Loop Us In</h1>
     <p>Tightly knotted or hanging loose? Fitted suit or selvedge denim? Sare your style with us.</p>
+    <ul class="sprite">
+      <li class="sprite-facebook"></li>
+      <li class="pintrist"></li>
+      <li class="twitter"></li>
+    </ul>
   </div>
   <div class="bar-items">
     <h1>The Quarterly</h1>
     <p>Our newsletter is simple and brief for the hard-pressed gentleman.</p>
+    <form action="subscribe">
+      <input type="text" name="subscribe"
+             placeholder="name@example.com">
+           </form>
+      <button class="click-subscribe">SUBSCRIBE ME</button>
+</form>
+
   </div>
   <div class="bar-items">
     <h1>Style Guide</h1>

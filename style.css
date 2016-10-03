@@ -65,16 +65,13 @@
 .sign-in {padding: 5px;}
 .register {padding:5px;}
 
+
+
 .sample-box {
   background-color: #F9F8F6;
   margin-right: 180px;
-
 }
-/*.sample-box:before {
-  content="";
-  background: url(./hard-mode/assets/black@1.5x.jpg);
-  repeat: x;
-}*/
+
 .sample-ties {
   list-style: none;
   margin-top: 0px;
@@ -154,6 +151,25 @@
 .bar-items p a {
   text-decoration: none;
   color: #65B8FF;
+}
+ul {
+  list-style: none;
+}
+.sprite {
+  float: left;
+	background: url(./hard-mode/assets/sprite@2x.png/);
+	width: 70px;
+	height: 70px;
+}
+
+.click-subscribe {
+  background-color: #65B8FF;
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: transparent;
+  padding: 3px;
 }
 .index {
     background-color: #F9F8F6;
