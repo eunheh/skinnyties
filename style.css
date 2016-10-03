@@ -155,11 +155,22 @@
   text-decoration: none;
   color: #65B8FF;
 }
-
+.index {
+    background-color: #F9F8F6;
+}
 .index-bar {
   margin-top: 20px;
+  clear: both;
+}
+.index-menu h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
 }
 .index-menu {
-  font-size: 14px;
+  font-size: 12px;
   float: left;
+  padding: 10px;
+  color: grey;
+  line-height: 18px;
 }
